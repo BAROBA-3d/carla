@@ -78,10 +78,11 @@ __4.   Export the result__. Select all the meshes and the base of the skeleton a
 ![add_vehicle_step_06](img/add_vehicle_step_06.jpg)
 <div style="text-align: right"><i>Step 6.3, front wheel setup.</i></div>
 
-*   __7. Create a blueprint for the vehicle__. Inside the folder, create another blueprint derived from `BaseVehiclePawn` and named `BP_<vehicle_name>`.  
+*   __7. Create a blueprint for the vehicle__. Inside the folder, create another blueprint derived from `BaseVehiclePawn` and named `BP_<vehicle_name>`. 
+Then click on Mesh (inherited) and change the following options: 
 	*   __7.1 - *Mesh*__ — Choose the skeletal mesh of the vehicle.  
 	*   __7.2 - *Anim class*__ — Choose the Animation blueprint created in *step 4*.  
-	*   __7.3 - *Vehicle bounds*__ — Adjust it to include the whole volume of the vehicle.  
+	*   __7.3 - *Vehicle bounds*__ — Adjust it to include the whole volume of the vehicle.(should happen automatically.)  
 
 !!! Note
     These options appear in the menu *Components* on the left side of the window. 
